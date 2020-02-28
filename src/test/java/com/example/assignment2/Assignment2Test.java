@@ -17,7 +17,7 @@ public class Assignment2Test {
     private ExampleRepository repository;
 
     @Test
-    public void should_find_all_examples() {
+    public void shouldFindAllExamples() {
         Iterable<Example> examples = repository.findAll();
 
         int size = 5;

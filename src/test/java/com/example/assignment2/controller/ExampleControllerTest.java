@@ -50,7 +50,7 @@ public class ExampleControllerTest {
     }
 
     @Test
-    public void publishToDBNewComponentStandardTest() {
+    public void shouldFindExampleById() {
         ResponseEntity<Example> response = exampleControllerFixture.getExampleById(ID);
 
         assertEquals("<200 OK OK,Example [id=1, title=title, desc=description],{}>", response.toString());
