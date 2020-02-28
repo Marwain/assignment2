@@ -13,7 +13,7 @@ public class MyRunner implements CommandLineRunner {
     private static final Logger logger = LoggerFactory.getLogger(MyRunner.class);
 
     @Autowired
-    private ExampleRepository cityRepository;
+    private ExampleRepository exampleRepository;
 
     @Override
     public void run(String... args) throws Exception {
